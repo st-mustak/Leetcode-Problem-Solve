@@ -3,8 +3,6 @@ package Array;
 public class RearrangePostiveNegativeNumber
 {
 	public static void main(String[] args) {
-	   // int arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8};
-	   // int arr[] = {1, 2, 3, -4, -1, 4};
 	   int arr[] = {2,-8,-3,-5,-7,-1,-2};
 	    int output[]=new int[arr.length];
 	    output=rearrange(arr,arr.length);

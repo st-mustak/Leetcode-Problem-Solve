@@ -2,11 +2,8 @@ package Array;
 
 public class NegativeNumberLeftSide {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int[] arr = {2,4,-1,-8,2,4,-5,-7,2,-3};
-		
+	public static void main(String[] args) {		
+		int[] arr = {2,4,-1,-8,2,4,-5,-7,2,-3};	
 		int i =0,j = 0;
 		
 		for(i = 0;i<arr.length;i++) {
@@ -14,18 +11,12 @@ public class NegativeNumberLeftSide {
 				int temp = arr[i];
 				arr[i] = arr[j];
 				arr[j] = temp;
-				j++;
-				
+				j++;	
 			}
-			
 		}
-		
 		System.out.println("Sorted Array : ");
-		
 		for(int ele : arr) {
 			System.out.print(ele + " ");
 		}
-
 	}
-
 }
